@@ -21,8 +21,7 @@ settings:
   connection-throttle: 4000
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: Server se pravdepodobne restartuje. Pokud nebude online do 10
-    minut, kontaktujte spravce.
+  shutdown-message: Server byl vypnut.
   minimum-api: none
 spawn-limits:
   monsters: 50
@@ -34,7 +33,7 @@ chunk-gc:
   period-in-ticks: 400
 ticks-per:
   animal-spawns: 400
-  monster-spawns: 1
+  monster-spawns: 4
   water-spawns: 1
   water-ambient-spawns: 1
   ambient-spawns: 1
